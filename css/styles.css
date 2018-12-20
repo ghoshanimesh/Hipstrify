@@ -1,0 +1,97 @@
+html,body,.cover{
+    height: 100%;
+}
+
+.cover{
+    background: url('../img/couchfriends.jpg');
+    background-size: cover;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #000;
+    display: table;
+}
+
+.cover-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+.cover-text h1{
+    font-size: 70px;
+    letter-spacing: -3px;
+    margin: 0;
+}
+.testimonial {
+    background: #222;
+}
+blockquote{
+    border: none;
+    margin: 0;
+    color: #FFF;
+    font-size: 32px;
+    font-family: Georgia, Times, serif;
+    font-style: italic;
+}
+
+blockquote cite{
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-size: 18px;
+    color: #888;
+    font-weight: bold;
+    font-family: Hetlevica,Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+section{
+    padding: 60px;
+}
+.navbar-inverse{
+    border: none;
+    background: rgba(0,0,0,0.7);
+}
+h2{
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0 0 60px;
+}
+
+#ourteam{
+    background: url(../img/fan.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+#ourteam img{
+    margin: 0 auto;
+}
+
+#contact h2{
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    background: #222;
+    margin-top: 80px;
+    padding: 20px;
+}
+footer a{
+    color: hotpink;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 568px){
+    .cover h1{
+        font-size: 40px;
+    }
+    section{
+        padding: 20px;
+    }
+    h2{
+        margin: 0 0 30px;
+    }
+}
